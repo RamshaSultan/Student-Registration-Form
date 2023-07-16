@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+        div {
+            /* text-align: center; */
+            background-color: #EDE4FF;
+            border-radius: 5%;
+        }
+
+        h1 {
+            text-decoration: underline;
+            text-align: center;
+        }
+
+        p {
+            margin-left: 10%;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div>
+
+        <h1>Student Registration Form</h1>
+
+        <hr>
+
+        <p>
+            <label for="fname">First Name :</label>
+            <input type="text" name="name" placeholder="First Name" style="width: 30%; height: 30px;">
+
+            <label for="lname">Last Name :</label>
+            <input type="text" name="name" placeholder="Last Name" style="width: 30%; height: 30px;">
+        </p>
+
+        <p>
+            <label for="father">Father Name :</label>
+            <input type="text" name="name" placeholder="Father Name" style="width: 30%; height: 30px;">
+        </p>
+
+        <p>
+            <select name="classes" style="margin-left: 4%; margin-top: 3%;">
+                <option value="class6-8">Class 6 to 8</option>
+                <option value="matric">Matric</option>
+                <option value="inter">Intermediate</option>
+                <option value="graduation">Graduation</option>
+                <option value="master">Master</option>
+            </select>
+        </p>
+
+        <p style="margin-top: 2%; margin-bottom: -1%;">Gender :</p>
+        <p>
+            <input type="radio" name="gender" style="margin-left: 6%;">
+            <label for="male">Male</label>
+
+            <input type="radio" name="gender" style="margin-left: 3%;">
+            <label for="female">Female</label>
+        </p>
+
+        <p>
+            <label for="phone">Phone Number :</label>
+            <input type="number" name="number" placeholder="0313-1234567" style="width: 30%; height: 30px; padding-left: 1%;">
+        </p>
+
+        <p>
+            <label for="address">Current Address :</label>
+            <input type="textarea" name="address" placeholder="Address" style="width: 30%; height: 50px;">
+        </p>
+
+        <p>
+            <label for="email">Email :</label>
+            <input type="email" name="email" style="width: 30%; height: 30px;">
+        </p>
+
+        <p>
+            <label for="password">Password</label>
+            <input type="password" name="password" placeholder="Enter Password" style="width: 30%; height: 30px;">
+        </p>
+
+        <p>
+            <label for="re-type">Re-type Password</label>
+            <input type="password" name="password" placeholder="Re-type Password" style="width: 30%; height: 30px;">
+        </p>
+
+        <p>
+            <input type="checkbox" name="checkbox"> I hereby declare that the information provided above is true and accurate to the best of my knowledge.
+        </p>
+
+        <p>
+            <button style="background-color: #DAFFFB; width: 8%; text-align: center;">Edit</button>
+            <button style="background-color: #64CCC5; width: 8%;">Register</button>
+        </p>
+
+    </div>
+
+</body>
+
+</html>
